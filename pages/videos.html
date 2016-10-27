@@ -1,0 +1,94 @@
+<!-- ############################# Ajax Page Container ############################# -->
+<section id="page" data-title="Noisa - Videos">
+
+	<!-- ############################# Intro ############################# -->
+	<section class="intro-title section border-bottom" style="background-image: url(placeholders/events-bg.jpg)">
+		<h1 class="heading-l">Awesome <span class="color">Videos</span></h1>
+	</section>
+	<!-- /intro -->
+
+	<!-- ############################# Content ############################# -->
+	<section class="content section">
+		<!-- container -->
+		<div class="container">
+
+			<!-- Filters -->
+			<div class="row clearfix filters" data-id="videos">
+
+				<!-- Genres -->
+				<select class='nice-select filter' name="genres">
+					<option value="placeholder">All Genres</option>
+					<option value="*">All Genres</option>
+					<option value="metalcore">Metalcore</option>
+					<option value="djent">Djent</option>
+					<option value="blues">Blues</option>
+				</select>
+
+				<!-- Albums -->
+				<select class='nice-select filter' name="albums">
+					<option value="placeholder">All Artists</option>
+					<option value="*">All Albums</option>
+					<option value="hive">Hive</option>
+					<option value="cover">Cover</option>
+					<option value="single">Single</option>
+				</select>
+
+				<!-- categories -->
+				<select class='nice-select filter' name="categories">
+					<option value="placeholder">All Categories</option>
+					<option value="*">All Categories</option>
+					<option value="playthough">Playthrough</option>
+					<option value="live">Live Videos</option>
+					<option value="official-video">Official Videos</option>
+				</select>
+			</div>
+			<!-- /filters -->
+			<!-- Videos Grid -->
+
+			<!-- Videos -->
+			<div id="videos" class="masonry clearfix">
+
+				<!-- Video -->
+				<div class="col-1-3 item" data-genres="metalcore" data-albums="hive" data-categories="playthough">
+					<!-- Video -->
+					<iframe src="//player.vimeo.com/video/66108316?portrait=0&amp;color=ea4233" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<!-- /Video -->
+					<div class="video-footer">
+						<h3 class="video-title">Video Title</h3>
+					</div>
+				</div>
+				<!-- /video -->
+
+				<!-- Video -->
+				<div class="col-1-3 item" data-genres="djent" data-albums="cover" data-categories="live">
+					<!-- Video -->
+					<iframe src="//player.vimeo.com/video/66108316?portrait=0&amp;color=ea4233" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<!-- /Video -->
+					<div class="video-footer">
+						<h3 class="video-title">Video Title</h3>
+					</div>
+				</div>
+				<!-- /video -->
+
+				<!-- Video -->
+				<div class="col-1-3 item" data-genres="blues" data-albums="single" data-categories="official-video">
+					<!-- Video -->
+					<iframe src="//player.vimeo.com/video/66108316?portrait=0&amp;color=ea4233" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<!-- /Video -->
+					<div class="video-footer">
+						<h3 class="video-title">Video Title</h3>
+					</div>
+				</div>
+				<!-- /video -->
+
+			</div>
+			<!-- /videos -->
+		 
+
+		</div>
+		<!-- /container -->
+	</section>
+	<!-- /Content -->
+
+</section>
+<!-- /page-->
